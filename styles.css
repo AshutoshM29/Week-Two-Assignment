@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Nunito:wght@400;700&display=swap');
+
+:root{
+    --back-color: #FEEFE5;
+    --secondary-color: #FFA987;
+    --primary-color: #F7EBE8;
+    --hover-color: #E54B4B;
+    --footer-color: #F1D6B8;
+}
+
+body {
+    margin: 2rem 0rem;
+    border: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: flex-start;
+    background-color: var(--back-color);
+  }
+  
+  /* Basic */
+
+  .article-basic {
+    background-color: var(--primary-color);
+    box-shadow: 1px 4px 10px 1px black;
+    height: 32rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+  }
+
+  .img-basic {
+    height: 45%;
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .section-basic {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+  }
+  .header-basic h3 {
+    margin-bottom: 0rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .header-basic small {
+    color: var(--secondary-color);
+    padding: 0.5rem 0.5rem;
+    margin: 0.2rem;
+  }
+  .header-basic p {
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .footer-basic {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+  }
+  .btn-basic {
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-top: -1rem;
+    border-radius: 0.5rem;
+  }
+  .btn-basic:hover {
+    background-color: var(--footer-color);
+  }
+  .btn-read,
+  .btn-bookmark {
+    color: var(--hover-color);
+    font-size: 0.9rem;
+  }
+  .btn-like,
+  .btn-share,
+  .btn-more {
+    font-size: 1rem;
+    color: var(--secondary-color);
+  }
