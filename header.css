@@ -1,0 +1,99 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Nunito:wght@400;700&display=swap');
+
+:root{
+    --back-color: snow;
+    --primary-color: #FFFBFA;
+    --secondary-color: #001f50;
+    --tertiary-color: #011638;
+    --hover-color: #f4def5;
+    /* #2B2539 */
+}
+
+body {
+
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+.h2-style {
+    margin-bottom: 0rem;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    display: flex;
+    width: 31rem;
+    justify-content: space-around;
+    background-color: var(--tertiary-color);
+    font-size: 20px;
+    color: var(--primary-color);
+    font-weight: 700;
+    padding: 0.4rem 1rem;
+}
+button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-position: center;
+}
+header {
+    flex-basis: 40%;
+    margin-right: auto;
+    margin-left: 15px;
+    padding: 0.8rem;
+}
+i {
+    color: var(--primary-color);
+    font-size: 20px;
+}
+button:hover {
+    background: var(--secondary-color)
+}
+
+.short-header {
+    padding: 0.1rem 1rem;
+}
+
+/*Collapsed header*/
+
+.acollapsed-header {
+    width: 6rem;
+    border-bottom-right-radius: 25px;
+    padding: 0.2rem 0.6rem;
+}
+
+.prominant-header {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+}
+.prominant-header header {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.download-btn {
+    grid-row: inherit;
+    grid-column: 3/4;
+}
+/*Prominant and dense header*/
+
+.pd {
+   row-gap: 0;
+   grid-template-rows: 42px 42px;
+}
+
+/*Fixed header*/
+
+.fixed {
+    bottom: 0;
+}
