@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Nunito:wght@400;700&display=swap');
+
+:root{
+    --back-color: snow;
+    --primary-color: #FFFBFA;
+    --secondary-color: #2B2539;
+    --tertiary-color: #011638;
+    --hover-color: #f4def5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    margin: 2rem 2rem;
+    border: 0;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--back-color);
+  }
+
+.content {
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    margin: 2rem;
+    background: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: var(--tertiary-color);
+    box-shadow: 1px 4px 10px 1px black;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+.basic {
+    display: flex;
+    flex-direction: column;
+}
+
+.basic a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.basic {
+    margin-left: 1rem;
+    line-height: 2.5rem;
+    height: 13rem;
+}
+
+.basic a {
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    color: var(--tertiary-color);
+    margin: 0.18rem 0.5rem 0.5rem 0;
+    background-color: var(--primary-color);
+}
+.basic .fas {
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}
+
+.sidebar {
+    padding-top: 16px;
+    background:white;
+    width: 15rem;
+}
+.sidebar .head {
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+.sidebar header {
+    font-size: 22px;
+    font-weight: 500;
+}
+.sidebar .head p {
+    font-size: 14px;
+    color: var(--tertiary-color);
+}
+
+
+
+/* Icons on Right */
+
+.basic-ior {
+    display: flex;
+    flex-direction: column;
+}
+
+.basic-ior a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.basic-ior {
+    margin-left: 1rem;
+    line-height: 2.5rem;
+    height: 13rem;
+}
+
+.basic-ior a {
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    color: var(--tertiary-color);
+    margin: 0.18rem 0.5rem 0.5rem 0;
+    background-color: var(--primary-color);
+}
+.basic-ior .fas {
+    margin-left: 10rem;
+    font-size: 1.2rem;
+    position: absolute;
+
+}
+
+.sidebar-ior {
+    padding-top: 16px;
+    background:white;
+    width: 15rem;
+}
+.sidebar-ior .head-ior {
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+.sidebar-ior header {
+    font-size: 22px;
+    font-weight: 500;
+}
+.sidebar-ior .head-ior p {
+    font-size: 14px;
+    color: var(--tertiary-color);
+}
+
+/* fixed */
+
+.fixed {
+    display: flex;
+    flex-direction: column;
+}
+
+.fixed a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.fixed {
+    margin-left: 1rem;
+    line-height: 2.5rem;
+    height: 13rem;
+}
+
+.fixed a {
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    color: var(--tertiary-color);
+    margin: 0.18rem 0.5rem 0.5rem 0;
+    background-color: var(--primary-color);
+}
+.fixed .fas {
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}
+
+.sidebar-fixed {
+    padding-top: 16px;
+    background:white;
+    width: 15rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.sidebar-fixed .head {
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+.sidebar-fixed header {
+    font-size: 22px;
+    font-weight: 500;
+}
+.sidebar-fixed .head p {
+    font-size: 14px;
+    color: var(--tertiary-color);
+}
+
+.text {
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.text header {
+    margin-top: 2px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+}
+.text-para {
+    padding: 0.35rem 01rem 0 1rem;
+}
+.text-para p {
+    margin: 1rem;
+}
